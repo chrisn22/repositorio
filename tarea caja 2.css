@@ -1,0 +1,30 @@
+.encabezado1 {
+    border: solid 2px #00f
+}
+
+.encabezado1{
+    padding-left: 10px;
+}
+
+.encabezado2 {
+    border: solid 2px #aaa
+}
+
+.listas {
+    border: solid 2px #0f0
+}
+
+.li{
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.img{
+    min-height: 450px;
+    max-width: 450px;
+    background-image: url("./Di-QzP2XcAIA6jX.jpg");
+}
+
+.letras{
+    font-family: 'Noto Sans JP', sans-serif;
+}

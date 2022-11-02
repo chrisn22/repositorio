@@ -1,0 +1,21 @@
+/* Top navigation bar */
+.topnav{
+overflow: hidden
+}
+/* Topnav links */
+.topnav{
+background-image: url("https://images.alphacoders.com/736/736461.png") ;
+display: none; 
+color: #f2f2f2;
+text-align: center;
+padding: 14 16;
+text-decoration: none ;
+}
+
+@media (minwidth: 600) {
+.topnav { 
+display: block;
+width: 100
+background-image: url("https://images.alphacoders.com/736/736461.png")
+}
+}

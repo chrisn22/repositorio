@@ -1,0 +1,16 @@
+.encabezado1 {
+    border-bottom: solid 2px blue;
+}
+
+.encabezado2 {
+    border: solid 2px grey;
+}
+
+.listadatos {
+    border-top: dotted 4px #F00;
+    border-bottom: dotted 4px #f00;
+}
+
+.listacontenidos {
+    border: dashed 2px #0f0;
+}

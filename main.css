@@ -1,0 +1,23 @@
+/* comentarios */
+.body{
+    background-color: url("https://external-preview.redd.it/2SRhl749JDfaJWRcZ39oVm0Jl3sHQ1w6ROlBHTfioOw.jpg?width=640&crop=smart&auto=webp&s=88f4d6d989dcbaa651267474784abd0cf1078b9e");
+}
+
+.cuadro1{
+    border: dotted red;
+}
+
+.cuadro2{
+    border: dashed green;
+}
+
+.cambios{
+    image-resolution: auto;
+}
+
+.listaDiv{
+    background: blue;
+}
+.listaDiv1{
+    background: yellow;
+}

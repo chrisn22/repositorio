@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tarea grupal.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,500&family=Roboto:wght@100;300;900&display=swap"
+        rel="stylesheet" />
+    <title>Lacuna | Contacto</title>
+</head>
+
+<body class="contacto__body__superior">
+    <!-- titulos! -->
+    <div class="contacto__div__titulos">
+        <hr class="contacto__lineahr">
+        <h1 class="contacto__h1__titulo">¡Mantengámonos en contacto!</h1>
+        <h2 class="contacto__h2__titulo2">Contactanos.</h2>
+    </div>
+
+    <!-- formularios -->
+    <section id="contacto">
+        <form class="contacto__forms">
+            <label class="contacto__nombres__formularios" for="usuario">Usuario</label>
+            <input class="cuadro" type="text" name="usuario" />
+            <label class="contacto__nombres__formularios" for="Contraseña">Contraseña</label>
+            <input class="cuadro" type="password" name="Contraseña" id="pass" />
+            <div class="contacto__div__textarea">
+                <label for="mensaje">Dejanos un mensaje</label>
+                <textarea name="textarea" rows="10" cols="30" style="height: 230px"></textarea>
+            </div>
+            <div class="contacto__div__checkForm">
+                <label for="urgente">Marcar como urgente</label>
+                <input type="radio" name="ugente" value="marcar como urgente">
+            </div>
+            <div class="checkForm">
+                <input type="checkbox" name="terminos" id="terminos">
+                <label for="terminos">Acepto recibir notificaciones en mi mail.</label>
+            </div>
+            <div class="contacto__div_botonEnviar">
+                <input class="contacto__botonEnviar" type="submit" value="Enviar" />
+            </div>
+        </form>
+    </section>
+    <div>
+        <hr class="contacto__lineahr">
+    </div>
+
+</body>
+
+</html>
